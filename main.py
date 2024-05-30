@@ -1,5 +1,5 @@
 from tkinter import *
-from tkinter.colorchooser import askcolor  # 색상 선택 대화 상자를 사용하기 위해 askcolor 함수를 임포트합니다.
+from tkinter.colorchooser import askcolor  # 색상 선택 대화 상자를 사용하기 위해 askcolor 함수를 임포트합니다. 
 
 def paint(event): 
     x1, y1 = (event.x - 1), (event.y - 1) 
