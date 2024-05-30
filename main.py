@@ -17,7 +17,7 @@ color = "black"  # 기본 그림 색상을 검정색으로 설정합니다.
 # 색상 선택 버튼을 생성하고 윈도우에 추가합니다.
 # 버튼을 클릭하면 choose_color 함수가 호출됩니다.
 color_button = Button(window, text="Choose Color", command=choose_color)
-color_button.pack()  # 버튼을 윈도우에 배치합니다.
+color_button.pack()  # 버튼을 윈도우에 배치합니다. 
 
 canvas = Canvas(window)  # 그림을 그릴 캔버스를 생성합니다.
 canvas.pack(expand=YES, fill=BOTH)  # 캔버스를 윈도우에 배치하고 창 크기에 맞게 확장되도록 설정합니다.
